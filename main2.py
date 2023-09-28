@@ -1,5 +1,6 @@
+import matplotlib.pyplot as plt
 import sklearn.datasets
 
-import matploatlib.pypload_digits()
-
-pit.imshow(digits.images[0],cmap="Greys")
+digits = sklearn.datasets.load_digits()
+plt.imshow(digits.images[0], cmap="Greys")
+plt.show()
